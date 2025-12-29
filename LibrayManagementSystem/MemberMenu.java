@@ -15,7 +15,7 @@ import java.util.*;
                     int n=s.nextInt();
                     switch (n) {
                         case 1:
-                            
+                           
                             break;
                         case 2:
                             

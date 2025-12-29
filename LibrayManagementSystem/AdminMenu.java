@@ -16,12 +16,19 @@ import java.util.*;
                     System.out.println("8.exit");
                     System.out.println("Enter the choice");
                     int n=s.nextInt();
+                    s.nextLine();
                     switch (n) {
                         case 1:
                             
                             break;
                         case 2:
-                            
+                            System.out.println("enter the book id");
+                            int bookid=s.nextInt();
+                            s.nextLine();
+                            System.out.println("enter the book title");
+                            String title=s.nextLine();
+                            System.out.println("enter the book author name");
+                            String author=s.nextLine();
                             break;
                         case 3:
                             
