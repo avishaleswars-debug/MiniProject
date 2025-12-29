@@ -2,7 +2,7 @@
     private int MemberID;
 private String name;
 private int borrowed;
-MemberEntity(int MemberID,String name,int borrowed){
+MemberEntity(int MemberID,String name,int borrowed) {
     this.MemberID=MemberID;
     this.name=name;
     this.borrowed=borrowed;
@@ -25,4 +25,8 @@ public void setname(String name){
 public String getname(){
     return name;
 }
+@Override
+public String toString(){
+    return "the ID "+MemberID+"name is "+name+"and the books borrowed"+borrowed;
+} 
 }

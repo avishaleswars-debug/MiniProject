@@ -33,4 +33,7 @@ public boolean  getisAvailable(){
 public void setisAvailable(boolean isAvailable){
     this.isAvailable=isAvailable;
 }
+public String toString(){
+    return "the bookid"+bookid+"title of book"+title+"the book author is"+Author+"and the book availabilty"+isAvailable;
+}
 }
