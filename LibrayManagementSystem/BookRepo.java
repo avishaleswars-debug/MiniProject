@@ -1,4 +1,5 @@
 package LibrayManagementSystem;
+import java.util.List;
 interface interBookRepo{
     void save(BookEntity book);
     BookEntity findbyid(int id);

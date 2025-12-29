@@ -1,4 +1,5 @@
 package LibrayManagementSystem;
+import java.util.List;
  interface InterMemberRepo {
 void save(MemberEntity member);
 MemberEntity findbyid(int id);
