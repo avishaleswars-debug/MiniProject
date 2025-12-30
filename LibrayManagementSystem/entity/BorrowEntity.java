@@ -31,7 +31,7 @@ public class BorrowEntity {
         this.status = BorrowStatus.RETURNED;
     }
 public String toString(){
-    return "bookid"+bookId+"memberid"+memberId+"borrowdate"+borrowDate+"status"+status;
+    return " bookid "+bookId+" memberid "+memberId+" borrowdate "+borrowDate+" status "+status;
 }
 }
 public enum BorrowStatus {

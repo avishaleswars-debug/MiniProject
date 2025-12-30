@@ -30,6 +30,6 @@ public String getname(){
 }
 @Override
 public String toString(){
-    return "the ID "+MemberID+"name is "+name+"and the books borrowed"+borrowed;
+    return "the ID "+MemberID+"name is "+name+" and the books borrowed "+borrowed;
 } 
 }
