@@ -1,9 +1,12 @@
- class BookEntity {
-private int bookid;
-private String title;
-private String Author;
-private boolean isAvailable;
-BookEntity(int bookid,String title,String Author,boolean isAvailable) {
+package LibrayManagementSystem.entity;
+
+public class BookEntity {
+    private int bookid;
+    private String title;
+    private String Author;
+    private boolean isAvailable;
+    
+    public BookEntity(int bookid,String title,String Author,boolean isAvailable) {
     this.bookid=bookid;
     this.title=title;
     this.Author=Author;

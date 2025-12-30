@@ -1,8 +1,11 @@
- class MemberEntity {
+package LibrayManagementSystem.entity;
+
+public class MemberEntity {
     private int MemberID;
-private String name;
-private int borrowed;
-MemberEntity(int MemberID,String name,int borrowed) {
+    private String name;
+    private int borrowed;
+    
+    public MemberEntity(int MemberID,String name,int borrowed) {
     this.MemberID=MemberID;
     this.name=name;
     this.borrowed=borrowed;

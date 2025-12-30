@@ -1,3 +1,4 @@
+package LibrayManagementSystem.entity;
 
 import java.time.LocalDate;
 public class BorrowEntity {
@@ -7,7 +8,7 @@ public class BorrowEntity {
     private LocalDate borrowDate;
     private BorrowStatus status;
 
-    public Borrow(int bookId, int memberId) {
+    public BorrowEntity(int bookId, int memberId) {
         this.bookId = bookId;
         this.memberId = memberId;
         this.borrowDate = LocalDate.now();
@@ -29,9 +30,11 @@ public class BorrowEntity {
     public void returnBook() {
         this.status = BorrowStatus.RETURNED;
     }
-
+public String toString(){
+    return "bookid"+bookId+"memberid"+memberId+"borrowdate"+borrowDate+"status"+status;
 }
- enum BorrowStatus {
+}
+public enum BorrowStatus {
     BORROWED,
     RETURNED
 }
