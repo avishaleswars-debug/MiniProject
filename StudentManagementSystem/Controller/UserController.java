@@ -15,8 +15,8 @@ int choice =view.menu();
 switch (choice) {
     case 1:
       int id=  view.id();
-       String name= view.name();
-       int age= view.age();
+        String name= view.name();
+        int age= view.age();
         service.createUserService(id,name,age);
         break;
 case 2:

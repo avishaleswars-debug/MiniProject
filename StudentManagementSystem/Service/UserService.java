@@ -7,7 +7,7 @@ import StudentManagementSystem.Repository.Repo;
 
 public class UserService implements IUserService {
     private Repo repo;
-  public  UserService(Repo repo){
+  public  UserService(Repo repo) throws Exception{
         this.repo=repo;
     }
    public    List<User> serviceRead() throws Exception{

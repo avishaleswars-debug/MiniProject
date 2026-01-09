@@ -28,6 +28,8 @@ ps.executeUpdate();
     }
 
   }
+
+  
    public  List<User> read() throws Exception {
     ArrayList<User> list=new ArrayList<>();
 String sql="select * from students";
