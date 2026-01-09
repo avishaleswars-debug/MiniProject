@@ -37,6 +37,7 @@ ResultSet rs=ps.executeQuery();
 while (rs.next()) {
     list.add(new User(rs.getInt("id"),rs.getString("name"),rs.getInt("age")));
 }
+return list;
    }
    public  void update(User user){
 
